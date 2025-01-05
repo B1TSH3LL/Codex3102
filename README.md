@@ -59,7 +59,15 @@ This project is in its **early stages**, making it the perfect opportunity for d
 ---
 
 ### 📝 **License**
-This project is licensed under the **MIT License**, ensuring it remains open-source and accessible to everyone.
+
+This project is licensed under the **AGPL-3.0 License**.
+
+- You are allowed to use, modify, and distribute the project under the terms of the AGPL-3.0 license.
+
+- If you use this software in a networked environment, you must make the source code available to the users.
+
+- See the full license details in the [LICENSE](https://github.com/B1TSH3LL/Codex3102/blob/master/LICENSE) file.
+
 
 ---
 
