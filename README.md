@@ -70,4 +70,58 @@ This project is licensed under the **MIT License**, ensuring it remains open-sou
 
 ---
 
+### 🚀 **Installation Process**
+1. **Clone the Repository**  
+   Clone the repository to your local machine by running:
+
+   ```
+   git clone https://github.com/your-username/your-repository-name.git
+   ```
+2. **Backend Setup**
+
+   Navigate to the backend folder:
+   ```
+   cd backend
+   npm install
+   ```
+   Create a .env file in the backend folder and add the required environment variables:
+   ```
+   PORT=8000
+   NODE_ENV=development
+   MONGO_URI=""
+   APP_ORIGIN="http://localhost:3000"
+   JWT_SECRET=""
+   JWT_EXPIRES_IN="15m"
+   JWT_REFRESH_SECRET=""
+   JWT_REFRESH_EXPIRES_IN="30d"
+   RESEND_API_KEY=""
+   MAILER_SENDER="onboarding@resend.dev"
+   ```
+   Run the backend server:
+   ```
+   npm run dev
+   ```
+   The backend server will be running at http://localhost:8000 (or your configured port).
+
+
+
+3. **Frontend Setup**
+
+   Navigate to the frontend folder:
+   ```
+   cd frontend
+   npm install
+   ```
+   Create a .env file in the frontend folder and add the required environment variables:
+   ```
+   NEXT_PUBLIC_API_BASE_URL="http://localhost:8000/api/v1"
+   ```
+   Run the frontend:
+   ```
+   npm run dev
+   ```
+   The frontend application will be running at http://localhost:3000
+ 
+---
+
 ### 🔥 Let’s build something incredible, together! 🚀
